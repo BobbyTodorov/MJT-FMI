@@ -30,7 +30,7 @@ public interface SpellChecker {
     void analyze(Reader textReader, Writer output, int suggestionsCount);
     
     /**
-     * Returns the metadata of the text contained in {@code textReader}
+     * Returns the metadata of the text contained in {@code textReader} 
      * The metadata gives information about the number of characters, words, and spelling mistakes in the text
      * @param textReader a java.io.Reader input stream containing some text
      * @return Metadata for the given text
