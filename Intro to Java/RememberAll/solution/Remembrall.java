@@ -1,4 +1,4 @@
-public class Remembrall {
+public class RemembrAll {
     public static boolean isPhoneNumberForgettable(String phoneNumber){
         if(phoneNumber == null || phoneNumber.isEmpty() || phoneNumber.isBlank()) {
             return false;
