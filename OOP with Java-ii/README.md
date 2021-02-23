@@ -131,32 +131,3 @@ public enum PgRating {
 Account(String username, LocalDateTime birthdayDate)
 ```
 
-## Структура на проекта
-
-Преди предаване на проекта в grader.sapera.org, се уверете, че следната структура е спазена:
-
-```
-src
-└── bg.sofia.uni.fmi.mjt.netflix
-    ├── account
-    │      └── Account.java
-    ├── content
-    │      ├── Streamable.java
-    │      ├── Movie.java
-    │      ├── Series.java
-    │      ├── Episode.java
-    │      └── enums
-    │            ├── Genre.java
-    │            └── PgRating.java
-    ├── exceptions
-    │      ├── UserNotFoundException.java
-    │      ├── ContentNotFoundException.java
-    │      └── ContentUnavailableException.java
-    └── platform
-           ├── StreamingService.java
-           └── Netflix.java
-```
-
-## Добавяне на решение
-
-В grader.sapera.org качете `.zip` архив на `src` директорията на проекта ви.
