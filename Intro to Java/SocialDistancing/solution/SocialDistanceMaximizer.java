@@ -7,7 +7,7 @@ public class SocialDistanceMaximizer {
 
         boolean freeSeatsAtStart = true;
 
-        for (int i = 0; i < numberOfSeats; i++) {
+        for (int i = 0; i < numberOfSeats; ++i) {
             if (seats[i] == 0) {
                 ++currentDistance;
             } else {
